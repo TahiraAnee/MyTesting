@@ -1,81 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <style>
-        
-        .next{
-            background-color: #1d2d44;
-        }
-        .one{
-            background-color: #3e5c76;
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table id="one" >
+            <tr>
+                
+                <th id="forLOgo"> <a href="https://www.facebook.com/login.php/"><img id="LOGO" src="images/images.jpg" alt="facebook logo" ></a></th>
+    
+                <th id="forWeb">MY WEBSITE</th>
+                <th id="date" >
+                    <pre>Saturday,25 May 2024</pre>
+                        <lable></lable>
+            <input type="text" placeholder="Search here"> </th>
            
-        }
-        table,th,td
-        {
-
-            border: 2px solid white;
-            border-collapse: collapse;
-            color: white;
-        }
-        .date{
-            font-size: medium;
-        }
-        
-    </style>
-</head>
-<body>
-    <table class="one" style="width:100%" >
-        <tr>
+        </table>
+        <table id="next">
+            <tr>
+                <th id="pages" ><a href="index.html" id="link">Home</a></th>
+                <th id="pages" ><a href="login-form.html" id="link">Form </a></th>
+                <th id="pages" ><a href="table.html" id="link">Table </a></th>
+                <th id="pages" ><a href="newsportal.html" id="link">News Portal</a></th>
+                <th id="pages" ><a href="images.html" id="link">Images</a> </th>
+                <th id="pages" ><a href="about.html" id="link">Contact</a></th>
+            </tr>
+    
+</table>
+    <div id="login">
+          <div id="login2">
+            <h3 id="login3">Registration Form</h3>
             
-            <th style="width: 10%;"> <a href="https://www.facebook.com/login.php/"><img src="images/images.jpg" alt="facebook logo" width="70" height="70"></a></th>
-
-            <th style="width:80%">MY WEBSITE</th>
-            <th class="date" style="width: 20%;">
-                <pre>Saturday,25 May 2024</pre>
-                    <lable></lable>
-        <input type="text" placeholder="Search here"> </th>
-       
-    </table>
-    <table class="next" style="width:100% ;height:40px">
-        <tr>
-            <th style="width: 10%;"><a href="index.html" style="color: white;  text-decoration: none;">Home</a></th>
-            <th style="width: 10%;"><a href="login-form.html" style="color: white;  text-decoration: none;">Form </a></th>
-            <th style="width: 10%;"><a href="table.html" style="color: white;  text-decoration: none;">Table </a></th>
-            <th style="width: 10%;"><a href="newsportal.html" style="color: white;  text-decoration: none;">News Portal</a></th>
-            <th style="width: 10%;"><a href="images.html" style="color: white;  text-decoration: none;">Images</a> </th>
-            <th style="width: 10%;"><a href="about.html" style="color: white;  text-decoration: none;">Contact</a></th>
-        </tr>
-
-    </table>
-    <div style="height: 800px; width: 100%; ;">
-          <div style="height:500px;width:500px;background-color: #aec3b0; margin-left: 30%; margin-top:10px;border-radius: 30px; border: 2px solid white;">
-            <h3 style="text-align: center; color:aliceblue">Registration Form</h3>
-            
-           <b style="color:aliceblue; margin-left: 10%;"  >First Name:</b>
+           <b id="login4" >First Name:</b>
             
             <input type="text" placeholder="First Name" style="margin-left: 1%;" >
             <br><br>
-            <b style="color:aliceblue; margin-left: 10%;" >Last Name:</b>
+            <b id="login4" >Last Name:</b>
             
             <input type="text" placeholder="Last Name" style="margin-left: 1.5%;" >
             <br><br>
-            <b style="color:aliceblue; margin-left: 10%;" >Email:</b>
+            <b id="login4" >Email:</b>
             
             <input type="text" placeholder="Email" style="margin-left: 9.5%;">
             <br><br>
-            <b style="color:aliceblue; margin-left: 10%;" >Password:</b>
+            <b id="login4" >Password:</b>
             
             <input type="password" placeholder="Type password" style="margin-left:3.3% ;">
             <br><br>
            
-            <b style="color:aliceblue; margin-left: 10%;" >Gender:</b>
+            <b id="login4" >Gender:</b>
             <input type="radio" id="Female" name="select_gender" value="Female" style="color:aliceblue; margin-left: 6.8%;">
             <label for="Female" style="color:aliceblue;">Female</label><br>
             <input type="radio" id="male" name="select_gender" value="Male" style="color:aliceblue; margin-left: 32%;">
             <label for="male" style="color:aliceblue;">Male</label><br>
              
-            <label for="divisions" style="color:aliceblue; margin-left: 10%;">Division</label>
-            <select id="divisions" name="divisions" style="margin-left: 7.5%; background-color: white; color: #7f7f7f;">
+            <label for="divisions" id="login4">Division</label>
+            <select id="divisions" name="divisions" >
               <option value="Dhaka" >Dhaka</option>
               <option value="Khulna">Khulna</option>
               <option value="Barishal">Barishal</option>
@@ -85,7 +65,7 @@
               <option value="Rajshahi">Rajshahi</option>
               <option value="Rangpur">Rangpur</option>
             </select><br><br>
-            <input type="submit" value="Submit" style="color:aliceblue; background-color: #1d2d44; margin-left: 40%;">
+            <input type="submit" value="Submit" >
 
           </div>
 

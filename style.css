@@ -35,7 +35,10 @@ table,th,td
 #pages
 {
     width: 10%;
+
 }
+
+
 #link
 {
     color: white;  
@@ -84,26 +87,37 @@ table,th,td
     margin-top:10px;
     border-radius: 30px;
     border: 2px solid white;
+   
 }
 #login3
 {
     text-align: center; color:aliceblue
 }
-#loginUsername
+#login4
 {
     color:aliceblue; margin-left: 10%;
 }
-#loginemail{
-    color:aliceblue; margin-left: 10%;
-}
-#loginpass
-{
-    color:aliceblue; margin-left: 10%;
-}
+
 #signin{
     text-align: center; color: white;
 }
 #loginbutton
 {
     margin-left: 40%;
+}
+#loginbutton:hover
+{
+    background-color: white ;
+}
+#divitions
+{
+    margin-left: 7.5%; background-color: white; color: #7f7f7f;
+}
+input[type=submit]
+{
+    color:aliceblue; background-color: #253751; margin-left: 40%;
+}
+input[type=submit]:hover
+{
+    background-color:#3e5c76 ;
 }
