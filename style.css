@@ -1,0 +1,72 @@
+#one{
+    background-color: #3e5c76;
+    width:100%
+    
+   
+}
+#next{
+    background-color: #1d2d44;
+    width:100% ;
+    height:40px
+}
+#forLOgo
+{
+    width: 10%;
+}
+#LOGO
+{
+    width:70px;
+    height:70px;
+}
+#forWeb{
+    width:80%;
+}
+table,th,td
+{
+
+    border: 2px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+.date{
+    font-size: medium;
+    width: 20%;
+}
+#pages
+{
+    width: 10%;
+}
+#link
+{
+    color: white;  
+    text-decoration: none;
+}
+#heading
+{
+    color: black;
+    background-color: white; 
+    text-align:center
+}
+#para
+{
+    display: inline-block; 
+    width: 50%; 
+    background-color: white; 
+    color: black;
+}
+#headline
+{
+    text-align: center;
+}
+#paragraph
+{
+    text-align: justify;
+}
+#forimg
+{
+    display: inline-block;
+}
+#starrynight{
+    width: 700px;
+    height: 400px;
+}
