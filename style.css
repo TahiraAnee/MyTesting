@@ -70,3 +70,40 @@ table,th,td
     width: 700px;
     height: 400px;
 }
+#login
+{
+    height: 800px; 
+    width: 100%; 
+}
+#login2
+{
+    height:500px;
+    width:500px;
+    background-color: #aec3b0; 
+    margin-left: 30%; 
+    margin-top:10px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+#login3
+{
+    text-align: center; color:aliceblue
+}
+#loginUsername
+{
+    color:aliceblue; margin-left: 10%;
+}
+#loginemail{
+    color:aliceblue; margin-left: 10%;
+}
+#loginpass
+{
+    color:aliceblue; margin-left: 10%;
+}
+#signin{
+    text-align: center; color: white;
+}
+#loginbutton
+{
+    margin-left: 40%;
+}
