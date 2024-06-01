@@ -121,3 +121,65 @@ input[type=submit]:hover
 {
     background-color:#3e5c76 ;
 }
+
+.table2,.row,.col{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.row
+{
+    height: 80px; 
+    
+}
+#roww
+{
+    background-color: #1d2d44;
+    color: white;
+    height: 80px;
+    
+}
+.col
+{
+    background-color: pink;
+    width: 70px;
+}
+.tab,.roo,.news{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+.roo
+{
+    width: 100%;
+}
+#breaking
+{
+    color: red;
+}
+.news
+{
+    width: 30px;
+}
+#newsImage
+{
+    width: 360px;
+}
+img
+{
+    display: inline-block; width:280px; height: 200px;
+}
+#left
+{
+    display: inline-block; 
+    width: 49%; 
+    height: 700px;
+    background-color: white; 
+    float: left; 
+    text-align: left;
+}
+#right
+{
+    display: inline-block; width: 49%; height: 700px;background-color: white; float: right; text-align: right;
+}
